@@ -10,7 +10,9 @@ theme_baker <- function(){
       plot.title = element_text(
         color = '#018374',face="bold",size=22, hjust = 0 , vjust = 2),
       legend.title = element_text(color = '#018374', size = 14),
-      legend.text = element_text(color = '#05322b',size = 14)
+      legend.text = element_text(color = '#05322b',size = 14),
+      plot.subtitle = element_text(color = "#05322b", hjust = 0, vjust = 2),
+      plot.caption = element_text(color = "#05322b", hjust = 1)
     )
 
  }
