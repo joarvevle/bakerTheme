@@ -1,8 +1,6 @@
 theme_baker <- function(){
   theme_bw() %+replace%
     theme(
-      plot.caption = element_text(
-        color="#018374", face="bold", size = 16, hjust = 1),
       axis.title = element_text(
         color = "#018374",size=14,face="bold"),
       axis.text = element_text(
