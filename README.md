@@ -1,5 +1,5 @@
 # bakerTheme
-R colour and fonts for ggplot that apply to baker hughes standars
+R colour and fonts (sorry, no fonts, need to add that at a later stage) for ggplot that apply to baker hughes standars
 Nothing fancy, just colour and fonts to apply to your R code to make it look a little bit more bakerish.
 
 At the moment it consist of two different functions.
