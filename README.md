@@ -18,6 +18,12 @@ library(devtools)
 install_github("joarvevle/bakertheme")
 ```
 ## Colour palette
+_baker_colour_
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/17bb602b-f727-4ce2-9ae6-d9ea3ce166e3)
+
+_baker_colour_ligth_
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/12a59c43-b521-4842-8bf3-47dd297aad40)
+
 
 ## Use
 add _theme_baker_ and _baker_colour_ to your GGPLOT.
