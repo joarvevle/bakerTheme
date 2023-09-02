@@ -54,10 +54,10 @@ mpg %>%
 
 mpg %>%
   ggplot()+
-  geom_geom(aes(cyl, manufacturer,colour=class))+
+  geom_col(aes(cyl, manufacturer,fill=class))+
   labs(title = "Cylinders per manufacturer")+
   theme_baker_dark()+
-  baker_colour_ligth()
+  baker_fill_light()
   }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
