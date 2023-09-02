@@ -22,11 +22,13 @@ install_github("joarvevle/bakertheme")
 ```
 ## Colour palette
 _baker_colour_
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/07649a2a-ee20-4765-95ef-60e43862b648)
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/8c720f80-e4ea-4055-91e7-12d46f2a5a6f)
+
 
 
 _baker_colour_ligth_
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/f3a68957-5a09-46a5-9d94-a938a78ff32f)
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/3fd78572-48f4-43aa-a84d-f3cd9f99bb24)
+
 
 
 ## Use
