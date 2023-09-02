@@ -19,11 +19,10 @@ install_github("joarvevle/bakertheme")
 ```
 ## Colour palette
 _baker_colour_
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/17bb602b-f727-4ce2-9ae6-d9ea3ce166e3)
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/bd4a79d5-a0ae-4562-861b-4ddf77afff98)
 
 _baker_colour_ligth_
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/12a59c43-b521-4842-8bf3-47dd297aad40)
-
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/17bb602b-f727-4ce2-9ae6-d9ea3ce166e3)
 
 ## Use
 add _theme_baker_ and _baker_colour_ to your GGPLOT.
@@ -32,16 +31,16 @@ library(bakerTheme)
 library(tidyverse)
 
 starwars %>%
-  head(20) %>% 
+  head(23) %>% 
   ggplot()+
-  geom_col(aes(eye_color,birth_year, fill=homeworld))+
-  labs(title = "Age in starwars", subtitle = "for different planets and eye colour",
-  caption = "DataSource : Starwars")+
+  geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
+  labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
   theme_baker()+
   baker_fill()
 ````
 
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/58f5fef3-bc10-4f24-9f97-d9d7bbe56703)
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/df040b6f-31d1-4038-8d86-19a0e608cf25)
+
 
 
 
@@ -51,13 +50,13 @@ library(bakerTheme)
 library(tidyverse)
 
 starwars %>%
-  head(20) %>% 
+  head(23) %>% 
   ggplot()+
-  geom_col(aes(eye_color,birth_year, fill=homeworld))+
-  labs(title = "Age in starwars", subtitle = "for different planets and eye colour",
-  caption = "DataSource : Starwars")+
+  geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
+  labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
   theme_baker_dark()+
   baker_fill_light()
 ````
 
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/1125dc02-9ae2-4d69-8f9e-7d5d5b17c7ec)
+![image](https://github.com/joarvevle/bakerTheme/assets/143795683/255c027c-b4ce-4de5-9630-94dd67ab1553)
+
