@@ -1,5 +1,5 @@
-\name{mainFunction}
-\alias{mainFunction}
+\name{theme_baker}
+\alias{theme_baker}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{myMainFun
 %%  ~~function to do ... ~~
