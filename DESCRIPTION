@@ -10,6 +10,6 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Collate:
-  Baker_colour.r
+  Baker_colour.R
   Baker_theme.R
-  mainFunction.r
+  mainFunction.R
