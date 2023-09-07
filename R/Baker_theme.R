@@ -1,4 +1,4 @@
-theme_baker <- function(){
+theme_baker_base <- function(){
   theme_minimal() %+replace%
     theme(
       #change font
@@ -30,7 +30,7 @@ theme_baker <- function(){
 
  }
 
-theme_baker_dark <- function(){
+theme_baker_base_dark <- function(){
   theme_minimal() %+replace%
     theme(
       #change font
