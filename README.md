@@ -14,8 +14,10 @@ _theme_baker_dark()_ based on _theme()_minimal_
 ## Colour palette:
 _baker_fill_ and _baker_colour_ 
   -  changes the default colour palette to baker hughes.
+     
 _baker_fill_ligth_ and _baker_colour_ligth_ 
   -  best used with the dark mode graphs
+    
 At the moment, only distinct colours
 
 ## Installation
