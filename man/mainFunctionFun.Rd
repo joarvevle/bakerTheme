@@ -29,7 +29,7 @@ Baker Hughes Theme
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+joar vevle
 }
 \note{
 %%  ~~further notes~~
