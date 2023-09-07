@@ -1,18 +1,21 @@
 # bakerTheme
-R colour and ~~fonts~~ (sorry, no fonts, need to add that at a later stage) for ggplot that apply to baker hughes standards.
+R colour ~~and fonts~~ (sorry, no fonts, need to add that at a later stage) for ggplot that apply to baker hughes standards.
 Nothing fancy, just colour and fonts to apply to your R code to make it look a little bit more bakerish.
 
 At the moment it consist of two different function famelies.
 
 ## theme_baker():
-One _theme_baker()_ that is based on _theme_bw_ and changes ~~(font to poppins, no)~~ and colour to the two base colours. 
-Second theme _theme_baker_dark()_ that are based on _theme()_minimal_ and changes background to dark and text to white and ligth grey
+Two main themes:
+_theme_baker()_ that is based on _theme_bw_ 
+  - changes ~~(font to poppins, and)~~ colour to the two base colours.
+_theme_baker_dark()_ based on _theme()_minimal_ 
+  -  changes background to dark and text to white and ligth grey
 
-## Two other functions:
-_baker_fill_ and _baker_colour_ that changes the default colour palette to baker hughes.
-
-_baker_fill_ligth_ and _baker_colour_ligth_ that are best used with the dark mode graphs
-
+## Colour palette:
+_baker_fill_ and _baker_colour_ 
+  -  changes the default colour palette to baker hughes.
+_baker_fill_ligth_ and _baker_colour_ligth_ 
+  -  best used with the dark mode graphs
 At the moment, only distinct colours
 
 ## Installation
