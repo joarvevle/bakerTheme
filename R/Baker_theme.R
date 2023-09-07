@@ -1,4 +1,4 @@
-theme_baker_base <- function(){
+theme_baker_base <- function(legend=0){
   theme_minimal() %+replace%
     theme(
       #change font
@@ -16,7 +16,7 @@ theme_baker_base <- function(){
       plot.caption = element_text(color = "#05322b", hjust = 1),
       
       #Name for category
-      axis.text.x = element_text(color = '#05322b',size = 12,face="bold"),
+      axis.text.x = element_text(color = '#05322b',size = 12,face="bold", hjust = 0.5, angle = legend),
       axis.text.y = element_text(color = '#05322b',size = 12,face="bold"),
       axis.title.x = element_text(hjust = 0.5),
       panel.grid.major.x = element_blank(),
@@ -30,7 +30,7 @@ theme_baker_base <- function(){
 
  }
 
-theme_baker_base_dark <- function(){
+theme_baker_base_dark <- function(legend=0){
   theme_minimal() %+replace%
     theme(
       #change font
@@ -56,7 +56,7 @@ theme_baker_base_dark <- function(){
       plot.caption = element_text(color = "#D0D0D0", hjust = 1),
       
       #Name for category
-      axis.text.x = element_text(color = '#FFFFFF',size = 12,face="bold"),
+      axis.text.x = element_text(color = '#FFFFFF',size = 12,face="bold", hjust = 0.5, angle = legend),
       axis.text.y = element_text(color = '#FFFFFF',size = 12,face="bold"),
       axis.title.x = element_text(hjust = 0.5),
       panel.grid.major.x = element_blank(),
