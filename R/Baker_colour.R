@@ -28,9 +28,9 @@ baker_colour <- function(){
 #Add two colour schemes for use with dark mode graph
 
 baker_fill_light <- function(){
-  scale_fill_manual(values = baker_li)
+  scale_fill_manual(values = baker_ligh )
 }
 
 baker_colour_light <- function(){
-  scale_colour_manual(values = baker_li)
+  scale_colour_manual(values = baker_ligh )
 }
