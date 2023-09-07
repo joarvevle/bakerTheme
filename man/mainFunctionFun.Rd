@@ -14,6 +14,7 @@ Baker Hughes Theme
 \arguments{
   \item{legend}{Orientation of the legend on X axis. Default is 0, or horisontal}
   \item{palette}{colour palette. Default is baker colours, and baker_ligth for dark theme}
+}
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
