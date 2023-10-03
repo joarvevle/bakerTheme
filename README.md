@@ -37,7 +37,7 @@ _baker_colour_ligth_
 
 
 ## Use
-add _theme_baker_ and _baker_colour_ to your GGPLOT.
+add _theme_baker_ to your GGPLOT.
 ````
 library(bakerTheme)
 library(tidyverse)
@@ -47,8 +47,7 @@ starwars %>%
   ggplot()+
   geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
   labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
-  theme_baker()+
-  baker_fill()
+  theme_baker()
 ````
 
 ![image](https://github.com/joarvevle/bakerTheme/assets/143795683/df040b6f-31d1-4038-8d86-19a0e608cf25)
@@ -66,8 +65,7 @@ starwars %>%
   ggplot()+
   geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
   labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
-  theme_baker_dark()+
-  baker_fill_light()
+  theme_baker_dark()
 ````
 
 ![image](https://github.com/joarvevle/bakerTheme/assets/143795683/255c027c-b4ce-4de5-9630-94dd67ab1553)
