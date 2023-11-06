@@ -8,7 +8,6 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-BakerTheme(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -42,22 +41,14 @@ BakerTheme(x)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-library(tidyverse)
-library(bakerTheme)
 
-mpg %>%
-  ggplot()+
-  geom_col(aes(cyl, manufacturer,fill=class))+
-  labs(title = "Cylinders per manufacturer")+
-  theme_baker()+
-  baker_fill()
+library(ggplot2)
+data("iris")
 
-mpg %>%
-  ggplot()+
-  geom_col(aes(cyl, manufacturer,fill=class))+
+ggplot()+
+  geom_col(aes(iris$Sepal.Length, iris$Sepal.Width,fill=iris$Species))+
   labs(title = "Cylinders per manufacturer")+
-  theme_baker_dark()+
-  baker_fill_light()
+  theme_baker()
   }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):

@@ -5,13 +5,15 @@
 %%  ~~function to do ... ~~
 }
 \description{
-Change default theme in ggplot to default Baker Hughes Colours. 
-}
-\usage{
+Change default theme in ggplot to default Baker Hughes Colours.
+
 Just add theme_baker() to your ggplot code.
-The function got two arguments. Legend = will let you set the legend orientation on x-axis to any value. Default is 0 (horisontal). Set it to 45 to make it easier to read when long variable names. 
+The function got two arguments. Legend = will let you set the legend orientation on x-axis to any value. Default is 0 (horisontal). Set it to 45 to make it easier to read when long variable names.
 Second function is palette =. As default it will be a dark palette for the white background and a lighter palette for the dark mode. If you want could basically set palette to any string of colours like ie
 colour = c("red","blue","green"). But if that is what you want, I am sure there is a better package out there for you.
+
+}
+\usage{
 
 }
 %- maybe also 'usage' for other objects documented here.
@@ -45,20 +47,14 @@ joar vevle
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-library(tidyverse)
-library(bakerTheme)
 
-mpg %>%
-  ggplot()+
-  geom_col(aes(cyl, manufacturer,fill=class))+
+library(ggplot2)
+data("iris")
+
+ggplot()+
+  geom_col(aes(iris$Sepal.Length, iris$Sepal.Width,fill=iris$Species))+
   labs(title = "Cylinders per manufacturer")+
   theme_baker()
-
-mpg %>%
-  ggplot()+
-  geom_col(aes(cyl, manufacturer,fill=class))+
-  labs(title = "Cylinders per manufacturer")+
-  theme_baker_dark()
   }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
