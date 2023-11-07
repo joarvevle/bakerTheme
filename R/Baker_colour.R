@@ -1,3 +1,6 @@
+.pkgenv <- new.env(parent=emptyenv())
+
+
 baker =  c("#666EB4", "#4CA2A8", "#AF74B9","#B49566","#DD887C","#E6B056","#DD7CC2","#B0CD5D",
            "#0a6053","#018374","#02BC94","#949494","#595959",
            "#006f79", "#00a6b8","#015183", "#fcb614","#da8220","#837401",
@@ -27,30 +30,24 @@ baker_light = c("#018374","#02BC94","#949494","#595959","#006f79", "#00a6b8"
              "#1b2232","#39350c",  "#244C46", "#446560", "#637F7A")
 
 
-baker_fill <- function(){
-  scale_fill_manual(values = baker)
-}
 
-baker_colour <- function(){
-  scale_colour_manual(values = baker)
-}
 
 #Add two colour schemes for use with dark mode graph
 
-baker_fill_light <- function(){
+.pkgenv[["baker_fill_light"]] <- function(){
   scale_fill_manual(values = baker_light )
 }
 
-baker_colour_light <- function(){
+.pkgenv[["baker_colour_light"]] <- function(){
   scale_colour_manual(values = baker_light )
 }
 
 #Add two colour schemes for use with dark mode graph
 
-baker_fill_old <- function(){
+.pkgenv[["baker_fill_old"]] <- function(){
   scale_fill_manual(values = baker_old )
 }
 
-baker_colour_old <- function(){
+.pkgenv[["baker_colour_old"]] <- function(){
   scale_colour_manual(values = baker_old )
 }
