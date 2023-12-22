@@ -20,7 +20,8 @@ colour = c("red","blue","green"). But if that is what you want, I am sure there 
   \item{palette}{colour palette. Default is baker colours, and baker_ligth for dark theme}
 }
 \references{
-https://designsystem.bakerhughes.com/8864c6763/p/064d79-baker-hughes-design-system
+Baker hughes design system : https://designsystem.bakerhughes.com/8864c6763/p/87e8c3-color/b/03c2e4  
+Brand Central : https://dam.bakerhughes.com/guidelines/  
 }
 \author{
 joar vevle
