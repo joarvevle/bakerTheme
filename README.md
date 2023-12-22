@@ -7,7 +7,7 @@ At the moment it consist of two different function famelies.
 ## theme_baker():
 Two main themes:
 _theme_baker()_ that is based on _theme_bw_ 
-  - changes ~~(font to poppins, and)~~ colour to the two base colours.
+  - changes font to poppins, and colour to the official colours.
 _theme_baker_dark()_ based on _theme()_minimal_ 
   -  changes background to dark and text to white and ligth grey
 
@@ -17,7 +17,7 @@ _baker_
 _baker_old_
   -  string with the old colour pallete
 _baker_light_
-  -  string with a lighter pallete. This could be used with darker plots or _theme_baker_dark()_
+  -  string with a lighter pallete. This could be used with darker plots. This is the default for _theme_baker_dark()_
 
 ## Installation
 ```
