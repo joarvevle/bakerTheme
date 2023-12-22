@@ -16,11 +16,13 @@ joar vevle
 
 \examples{
 
-library(ggplot2)
-data("iris")
+library(bakerTheme)
+library(tidyverse)
 
-ggplot()+
-  geom_col(aes(iris$Sepal.Length, iris$Sepal.Width,fill=iris$Species))+
-  labs(title = "Cylinders per manufacturer")+
-  theme_baker()
+starwars %>%
+  head(23) %>%
+  ggplot()+
+  geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
+  labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
+  theme_baker(legend = 25)
   }
