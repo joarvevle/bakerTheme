@@ -1,5 +1,5 @@
 # bakerTheme
-R colour ~~and fonts~~ (sorry, no fonts, need to add that at a later stage) for ggplot that apply to baker hughes standards.
+R colour and fonts for ggplot that apply to baker hughes standards.
 Nothing fancy, just colour and fonts to apply to your R code to make it look a little bit more bakerish.
 
 At the moment it consist of two different function famelies.
@@ -12,13 +12,12 @@ _theme_baker_dark()_ based on _theme()_minimal_
   -  changes background to dark and text to white and ligth grey
 
 ## Colour palette:
-_baker_fill_ and _baker_colour_ 
-  -  changes the default colour palette to baker hughes.
-     
-_baker_fill_ligth_ and _baker_colour_ligth_ 
-  -  best used with the dark mode graphs
-    
-At the moment, only distinct colours
+_baker_
+  -  string with all official colour
+_baker_old_
+  -  string with the old colour pallete
+_baker_light_
+  -  string with a lighter pallete. This could be used with darker plots or _theme_baker_dark()_
 
 ## Installation
 ```
@@ -26,14 +25,18 @@ library(devtools)
 install_github("joarvevle/bakertheme")
 ```
 ## Colour palette
-_baker_colour_
+_baker_
 ![image](https://github.com/joarvevle/bakerTheme/assets/143795683/8c720f80-e4ea-4055-91e7-12d46f2a5a6f)
 
+_baker_old_
 
-
-_baker_colour_ligth_
+_baker_ligth_
 ![image](https://github.com/joarvevle/bakerTheme/assets/143795683/3fd78572-48f4-43aa-a84d-f3cd9f99bb24)
 
+
+## More info
+Baker hughes design system : https://designsystem.bakerhughes.com/8864c6763/p/87e8c3-color/b/03c2e4
+Brand Central : https://dam.bakerhughes.com/guidelines/
 
 
 ## Use
