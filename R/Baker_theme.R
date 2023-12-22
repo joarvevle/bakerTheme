@@ -2,7 +2,7 @@
   theme_minimal() %+replace%
     theme(
       #change font
-      #text=element_text(family="poppins"),# need to include poppins in package
+      text=element_text(family="Dancing Script"),# need to include poppins in package
 
       #title, axis title and legend title
       plot.title = element_text(color = '#018374',face="bold",size=22, hjust = 0 , vjust = 2),
@@ -34,7 +34,7 @@
   theme_minimal() %+replace%
     theme(
       #change font
-      #text=element_text(family="Poppins"), need to include poppins in package
+      text=element_text(family="Dancing Script"),# need to include poppins in package
 
       #Change background to dark
       panel.background = element_rect(fill = "#05322b"),

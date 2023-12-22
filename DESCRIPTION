@@ -13,7 +13,10 @@ Collate:
   Baker_colour.R
   Baker_theme.R
   mainFunction.R
+  zzz.R
 Imports: 
     curl,
     ggplot2,
-    jsonlite
+    jsonlite,
+    sysfonts,
+    showtext
