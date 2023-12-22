@@ -5,19 +5,22 @@ Nothing fancy, just colour and fonts to apply to your R code to make it look a l
 At the moment it consist of two different function famelies.
 
 ## theme_baker():
-Two main themes:
-_theme_baker()_ that is based on _theme_bw_ 
+Two main themes:  
+_theme_baker()_ that is based on _theme()__minimal_
   - changes font to poppins, and colour to the official colours.
-_theme_baker_dark()_ based on _theme()_minimal_ 
+  
+_theme_baker_dark()_ based on _theme()__minimal_ 
   -  changes background to dark and text to white and ligth grey
 
 ## Colour palette:
-_baker_
+_baker_  
   -  string with all official colour
-_baker_old_
+  
+_baker_old_  
   -  string with the old colour pallete
-_baker_light_
-  -  string with a lighter pallete. This could be used with darker plots. This is the default for _theme_baker_dark()_
+  
+_baker_light_  
+  -  string with a lighter pallete. This could be used with darker plots. This is the default for _theme_baker_dark()_  
 
 ## Installation
 ```
@@ -25,21 +28,19 @@ library(devtools)
 install_github("joarvevle/bakertheme")
 ```
 ## Colour palette
-_baker_
-![baker](https://github.com/joarvevle/bakerTheme/assets/143795683/d9d29c2c-fe36-41d6-9a28-fdd5fe483f09)
+baker  
+![baker](https://github.com/joarvevle/bakerTheme/assets/143795683/e8ac46cb-cbd9-4b25-80e8-657b0911896a)  
 
-_baker_old_
-![baker_old](https://github.com/joarvevle/bakerTheme/assets/143795683/763dad4b-4c3f-4b22-abe7-9555035cffd1)
+baker_old  
+![baker_old](https://github.com/joarvevle/bakerTheme/assets/143795683/035978b4-cd8a-4997-b50b-99e27dbff12a)  
 
-_baker_ligth_
-![baker_light](https://github.com/joarvevle/bakerTheme/assets/143795683/5473e76d-327e-4c10-b7c9-d73350f3f78e)
-
-
-## More info
-Baker hughes design system : https://designsystem.bakerhughes.com/8864c6763/p/87e8c3-color/b/03c2e4
-Brand Central : https://dam.bakerhughes.com/guidelines/
-
-
+baker_light  
+![baker_light](https://github.com/joarvevle/bakerTheme/assets/143795683/9fcef3b2-6ac5-4eb0-a250-4781fab1330d)  
+  
+## More info  
+Baker hughes design system : https://designsystem.bakerhughes.com/8864c6763/p/87e8c3-color/b/03c2e4  
+Brand Central : https://dam.bakerhughes.com/guidelines/  
+  
 ## Use
 add _theme_baker_ to your GGPLOT.
 ````
