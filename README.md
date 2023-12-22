@@ -26,12 +26,13 @@ install_github("joarvevle/bakertheme")
 ```
 ## Colour palette
 _baker_
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/8c720f80-e4ea-4055-91e7-12d46f2a5a6f)
+![baker](https://github.com/joarvevle/bakerTheme/assets/143795683/d9d29c2c-fe36-41d6-9a28-fdd5fe483f09)
 
 _baker_old_
+![baker_old](https://github.com/joarvevle/bakerTheme/assets/143795683/763dad4b-4c3f-4b22-abe7-9555035cffd1)
 
 _baker_ligth_
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/3fd78572-48f4-43aa-a84d-f3cd9f99bb24)
+![baker_light](https://github.com/joarvevle/bakerTheme/assets/143795683/5473e76d-327e-4c10-b7c9-d73350f3f78e)
 
 
 ## More info
@@ -46,15 +47,14 @@ library(bakerTheme)
 library(tidyverse)
 
 starwars %>%
-  head(23) %>% 
+  head(23) %>%
   ggplot()+
   geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
   labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
-  theme_baker()
+  theme_baker(legend = 25)
+
 ````
-
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/df040b6f-31d1-4038-8d86-19a0e608cf25)
-
+![baker_theme](https://github.com/joarvevle/bakerTheme/assets/143795683/1f6b68e8-8d49-4dcd-9066-1f174794ae4c)
 
 
 
@@ -64,12 +64,13 @@ library(bakerTheme)
 library(tidyverse)
 
 starwars %>%
-  head(23) %>% 
+  head(23) %>%
   ggplot()+
   geom_col(aes(homeworld,height, fill=skin_color), position = "dodge")+
   labs(title = "Age in starwars", subtitle = "for different planets and eye colour", caption = "DataSource : Starwars")+
-  theme_baker_dark()
+  theme_baker_dark(legend = 25)
 ````
 
-![image](https://github.com/joarvevle/bakerTheme/assets/143795683/255c027c-b4ce-4de5-9630-94dd67ab1553)
+![baker_theme_dark](https://github.com/joarvevle/bakerTheme/assets/143795683/c647d850-035f-40d9-adfb-0033ca6df0e6)
+
 
