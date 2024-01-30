@@ -5,14 +5,14 @@
       text=element_text(family="poppins"),# need to include poppins in package
 
       #title, axis title and legend title
-      plot.title = element_text(color = '#018374',face="bold",size=22, hjust = 0 , vjust = 2),
+      plot.title = element_text(color = '#018374',face="bold",size=22, hjust = 0 , vjust = 1),
       axis.title = element_text(color = "#018374",size=14,face="bold"),
       legend.title = element_text(color = '#018374', size = 14, hjust = 0),
       strip.text = element_text(colour = '#018374', size = 14,vjust = 1),
 
       #subtitle, caption and legend text
       legend.text = element_text(color = '#05322b',size = 14),
-      plot.subtitle = element_text(color = "#05322b", hjust = 0, vjust = 2),
+      plot.subtitle = element_text(color = "#05322b", hjust = 0, vjust = 0.3),
       plot.caption = element_text(color = "#05322b", hjust = 1),
 
       #Name for category
@@ -45,14 +45,14 @@
       panel.border = element_rect(colour = "#D0D0D0", fill=NA, size=.01),
 
       #title, axis title and legend title
-      plot.title = element_text(color = '#FFFFFF',face="bold",size=22, hjust = 0 , vjust = 2),
+      plot.title = element_text(color = '#FFFFFF',face="bold",size=22, hjust = 0 , vjust = 1),
       axis.title = element_text(color = "#FFFFFF",size=14,face="bold"),
       legend.title = element_text(color = '#FFFFFF', size = 14, hjust = 0),
       strip.text = element_text(colour = '#FFFFFF', size = 14,vjust = 1),
 
       #subtitle and caption and legend text
       legend.text = element_text(color = '#D0D0D0',size = 14),
-      plot.subtitle = element_text(color = "#D0D0D0", hjust = 0, vjust = 2),
+      plot.subtitle = element_text(color = "#D0D0D0", hjust = 0, vjust = 0.3),
       plot.caption = element_text(color = "#D0D0D0", hjust = 1),
 
       #Name for category
