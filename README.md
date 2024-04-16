@@ -2,7 +2,7 @@
 R colour and fonts for ggplot that apply to baker hughes standards.
 Nothing fancy, just colour and fonts to apply to your R code to make it look a little bit more bakerish.
 
-At the moment it consist of two different function famelies.
+At the moment it consist of two different function families.
 
 ## theme_baker():
 Two main themes:  
