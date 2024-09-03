@@ -6,10 +6,10 @@ At the moment it consist of two different function families.
 
 ## theme_baker():
 Two main themes:  
-_theme_baker()_ that is based on _theme()__minimal_
+_theme_baker()_ that is based on _theme_minimal()_
   - changes font to poppins, and colour to the official colours.
   
-_theme_baker_dark()_ based on _theme()__minimal_ 
+_theme_baker_dark()_ based on _theme_minimal()_ 
   -  changes background to dark and text to white and ligth grey
 
 ## Colour palette:
